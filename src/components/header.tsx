@@ -14,12 +14,12 @@ export default function Header() {
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-6">
           <Link to="/" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">Homepage</Link>
-          <Link to="/about" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">About Me</Link>
-          <Link to="/contact" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">Contact & Collaborations</Link>
           <Link to="/blog" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">All Articles</Link>
-          <Link to="/categories" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">Topics</Link>
+          <Link to="/topics" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">Topics</Link>
           <Link to="/lookbook" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">Street Style Gallery</Link>
           <Link to="/shop-edit" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">The Edit — Shop My Picks</Link>
+          <Link to="/about-me" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">About Me</Link>
+          <Link to="/contact" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">Contact & Collaborations</Link>
         </nav>
 
         {/* Mobile menu */}
@@ -35,12 +35,12 @@ export default function Header() {
             </SheetHeader>
             <nav className="mt-6 flex flex-col space-y-1">
               <Link to="/" className="block px-3 py-2 text-base font-medium text-foreground/80 hover:text-primary transition-colors">Homepage</Link>
-              <Link to="/about" className="block px-3 py-2 text-base font-medium text-foreground/80 hover:text-primary transition-colors">About Me</Link>
-              <Link to="/contact" className="block px-3 py-2 text-base font-medium text-foreground/80 hover:text-primary transition-colors">Contact & Collaborations</Link>
               <Link to="/blog" className="block px-3 py-2 text-base font-medium text-foreground/80 hover:text-primary transition-colors">All Articles</Link>
-              <Link to="/categories" className="block px-3 py-2 text-base font-medium text-foreground/80 hover:text-primary transition-colors">Topics</Link>
+              <Link to="/topics" className="block px-3 py-2 text-base font-medium text-foreground/80 hover:text-primary transition-colors">Topics</Link>
               <Link to="/lookbook" className="block px-3 py-2 text-base font-medium text-foreground/80 hover:text-primary transition-colors">Street Style Gallery</Link>
               <Link to="/shop-edit" className="block px-3 py-2 text-base font-medium text-foreground/80 hover:text-primary transition-colors">The Edit — Shop My Picks</Link>
+              <Link to="/about-me" className="block px-3 py-2 text-base font-medium text-foreground/80 hover:text-primary transition-colors">About Me</Link>
+              <Link to="/contact" className="block px-3 py-2 text-base font-medium text-foreground/80 hover:text-primary transition-colors">Contact & Collaborations</Link>
             </nav>
           </SheetContent>
         </Sheet>
